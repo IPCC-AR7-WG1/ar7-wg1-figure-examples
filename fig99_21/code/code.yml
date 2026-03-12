@@ -7,17 +7,8 @@
 description: "Contains scripts and tools used for data processing, modeling, and analysis."
 
 scripts:
-  - name: "example_figure_script.py"
-    path: "..."
+  - name: "regional-scatter-plots_Figure-Atlas-13_R.ipynb"
+    path: "../fig99_13/code/regional-scatter-plots_Figure-Atlas-13_R.ipynb"
     description: "Plot the figure"
 
-  - name: "example_final_data_script.py"
-    path: "..."
-    description: "Generate final data"
-
-language: "Python"
-
-related_repositories:
-  - name: "xxx"
-    url: "xxx"
-    relation: "Resource"
+language: "R"
