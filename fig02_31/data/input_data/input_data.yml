@@ -1,0 +1,27 @@
+dataset:
+  figure_table_number: "Figure 2.31"
+  dataset_name: "Ocean Colour Climate Change Initiative (OC-CCI)"
+  version: "4.2"
+  type: "Input dataset"
+
+file_information:
+  file_name: "OC-CCI Version 4.2"
+  specifications: "Ocean colour multi-sensor dataset"
+
+access:
+  license: "Free and Open"
+  dataset_url:
+    - "https://catalogue.ceda.ac.uk/uuid/994348819bd3359cbd597a58c3dd8d10"
+    - "https://climate.esa.int/en/projects/ocean-colour/"
+    - "https://www.oceancolour.org"
+
+related_publications:
+  - "Sathyendranath et al. (2019)"
+  - "Sathyendranath et al. (2008)"
+
+notes: >
+  The climatology and trends are calculated from climate-quality
+  ocean-colour products generated as part of the Climate Change Initiative
+  of the European Space Agency. These are multi-sensor products, with
+  inter-sensor bias correction applied to minimise artefacts in trends,
+  with processing algorithms selected after round-robin comparisons.

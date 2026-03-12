@@ -20,13 +20,12 @@ authors:
 cff-version: 1.2.0 # replace with the CFF version
 version: "1.0.0" # replace with the version of the repository
 date-released: 2024-04-15 # replace with the release date
-repository: https://github.com/ipcc-ar7-wg1/ar7-wg1-fod-ch99-template # replace with the URL of the repository
+repository: https://github.com/ipcc-ar7-wg1/ # replace with the URL of the repository
 keywords: # replace with relevant keywords
   - IPCC
   - AR7
   - WG1
-  - figure
-  - data processing
+  - Ocean
 doi: "10.5281/zenodo.1234567" # replace with the DOI
 license: "Apache-2.0"
 message: "If you use this repository, please cite it using the following metadata."

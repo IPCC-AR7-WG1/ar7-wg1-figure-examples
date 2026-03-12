@@ -1,0 +1,172 @@
+datasets:
+  - dataset_code_name: "IPSL-CM6A-LR"
+    experiments:
+      - piControl
+      - midHolocene
+    type: "Input dataset"
+    file_name_specifics: null
+    license_type: null
+    citation:
+      - "Boucher et al. (2018b)"
+      - "Boucher et al. (2018c)"
+    dataset_url: null
+    related_publications: null
+
+  - dataset_code_name: "MIROC-ES2L"
+    experiments:
+      - piControl
+      - midHolocene
+    type: "Input dataset"
+    file_name_specifics: null
+    license_type: null
+    citation:
+      - "Hajima et al. (2019d)"
+      - "Ohgaito et al. (2019b)"
+    dataset_url: null
+    related_publications: null
+
+  - dataset_code_name: "MPI-ESM1-2-LR"
+    experiments:
+      - piControl
+      - midHolocene
+    type: "Input dataset"
+    file_name_specifics: null
+    license_type: null
+    citation:
+      - "Jungclaus et al. (2019e)"
+      - "Wieners et al. (2019g)"
+    dataset_url: null
+    related_publications: null
+
+  - dataset_code_name: "MRI-ESM2-0"
+    experiments:
+      - piControl
+      - midHolocene
+    type: "Input dataset"
+    file_name_specifics: null
+    license_type: null
+    citation:
+      - "Yukimoto et al. (2019f)"
+      - "Yukimoto et al. (2019l)"
+    dataset_url: null
+    related_publications: null
+
+  - dataset_code_name: "NESM3"
+    experiments:
+      - piControl
+      - midHolocene
+    type: "Input dataset"
+    file_name_specifics: null
+    license_type: null
+    citation:
+      - "Cao et al. (2019b)"
+      - "Cao and Wang (2019e)"
+    dataset_url: null
+    related_publications: null
+
+  - dataset_code_name: "NorESM1-F"
+    experiments:
+      - piControl
+      - midHolocene
+    type: "Input dataset"
+    file_name_specifics: null
+    license_type: null
+    citation:
+      - "Guo et al. (2019a)"
+      - "Guo et al. (2019c)"
+    dataset_url: null
+    related_publications: null
+
+  - dataset_code_name: "NorESM2-LM"
+    experiments:
+      - piControl
+      - midHolocene
+    type: "Input dataset"
+    file_name_specifics: null
+    license_type: null
+    citation:
+      - "Seland et al. (2019f)"
+      - "Z. Zhang et al. (2019b)"
+    dataset_url: null
+    related_publications: null
+
+cmip5_data_citations:
+
+  - dataset_code_name: "BCC-CSM1-1"
+    experiment: "midHolocene"
+    type: "Input dataset"
+    citation:
+      - "Wu and Xin (2015c)"
+
+  - dataset_code_name: "BCC-CSM1-1-m"
+    experiment: "piControl"
+    type: "Input dataset"
+    citation:
+      - "Wu and Xin (2015h)"
+
+  - dataset_code_name: "CCSM4"
+    experiments:
+      - midHolocene
+      - piControl
+    type: "Input dataset"
+    citation:
+      - "Gent (2014)"
+      - "Otto-Bliesner (2014c)"
+
+  - dataset_code_name: "CNRM-CM5"
+    experiments:
+      - midHolocene
+      - piControl
+    type: "Input dataset"
+    citation:
+      - "Sénési et al. (2014e)"
+      - "Sénési et al. (2014f)"
+
+  - dataset_code_name: "CSIRO-Mk3-6-0"
+    experiments:
+      - midHolocene
+      - piControl
+    type: "Input dataset"
+    citation:
+      - "Jeffrey et al. (2016e)"
+      - "Jeffrey et al. (2016f)"
+
+  - dataset_code_name: "CSIRO-Mk3L-1-2"
+    experiments:
+      - midHolocene
+      - piControl
+    type: "Input dataset"
+    citation: null
+
+  - dataset_code_name: "EC-EARTH-2-2"
+    experiments:
+      - midHolocene
+      - piControl
+    type: "Input dataset"
+    citation: null
+
+  - dataset_code_name: "FGOALS-g2"
+    experiments:
+      - midHolocene
+      - piControl
+    type: "Input dataset"
+    citation:
+      - "LASG Institute of Atmospheric Physics Chinese Academy of Sciences (2015e)"
+      - "LASG Institute of Atmospheric Physics Chinese Academy of Sciences (2015f)"
+
+  - dataset_code_name: "FGOALS-s2"
+    experiments:
+      - midHolocene
+      - piControl
+    type: "Input dataset"
+    citation:
+      - "LASG Institute of Atmospheric Physics Chinese Academy of Sciences (2015k)"
+      - "LASG Institute of Atmospheric Physics Chinese Academy of Sciences (2015m)"
+
+  - dataset_code_name: "GISS-E2-R"
+    experiments:
+      - midHolocene
+      - piControl
+    type: "Input dataset"
+    citation:
+      - "NASA Goddard Institute for Space Studies (2014n)"
