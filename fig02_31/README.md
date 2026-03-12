@@ -1,4 +1,4 @@
-FIGURE TITLE
+Phytoplankton dynamics in the ocean
 ====================================
 [![DOI](https://zenodo.org/badge/DOI/YOUR_ZENODO_DOI.svg)](https://doi.org/YOUR_ZENODO_DOI)
 ![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
@@ -21,7 +21,6 @@ Figure 2.31  From the IPCC Working Group I Contribution to the Sixth Assessment 
 
 ## Description
 
-Phytoplankton dynamics in the ocean.
 (a) Climatology of chlorophyll-a concentration derived from ocean-colour data (1998–2018); (b) Linear trends in chlorophyll concentration. Trends are calculated using OLS regression with significance assessed following AR(1) adjustment after Santer et al. (2008) (‘×’ marks denote non-significant changes). (c) Histogram of linear trends in chlorophyll concentration, after area weighting and with per-pixel uncertainty estimates based on comparison with in situ data. Further details on data sources and processing are available in the chapter data table (Table 2.SM.1).
 
 ## Installation
