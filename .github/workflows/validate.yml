@@ -1,0 +1,85 @@
+name: Validate Figure Folder Structure
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  validate-structure:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Validate figure folders
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          echo "Validating figure folder structure..."
+
+          shopt -s nullglob
+          fig_dirs=(fig*)
+          shopt -u nullglob
+
+          if [ ${#fig_dirs[@]} -eq 0 ]; then
+            echo "No figure folders found (fig*)"
+            exit 1
+          fi
+
+          overall_fail=0
+
+          for dir in "${fig_dirs[@]}"; do
+            if [ -d "$dir" ]; then
+              echo ""
+              echo "📁 Checking folder: $dir"
+              missing=0
+
+              # -----------------------------
+              # Folder name validation
+              # -----------------------------
+              # Final: figXX_YY (e.g., fig01_03)
+              # Temp:  figXX_<descriptive_name> (e.g., fig01_overview)
+              if [[ ! "$dir" =~ ^fig[0-9]{2}_[0-9]{2}$ && \
+                    ! "$dir" =~ ^fig[0-9]{2}_[a-z0-9_]+$ ]]; then
+                echo "❌ Invalid folder name: $dir"
+                missing=$((missing+1))
+              else
+                echo "✅ Folder name format passed validate"
+              fi
+
+              # -----------------------------
+              # Required contents
+              # -----------------------------
+              required=("code" "data" "figure" "CITATION.cff" "README.md" "LICENSE")
+
+              for item in "${required[@]}"; do
+                if [ ! -e "$dir/$item" ]; then
+                  echo "❌ Missing required item: $item"
+                  missing=$((missing+1))
+                else
+                  echo "Found: $item"
+                fi
+              done
+
+              # -----------------------------
+              # Final result for folder
+              # -----------------------------
+              if [ $missing -eq 0 ]; then
+                echo "✅ $dir passed validation"
+              else
+                echo "⚠️ $dir failed validation ($missing issue(s))"
+                overall_fail=1
+              fi
+            fi
+          done
+
+          echo ""
+          if [ $overall_fail -eq 0 ]; then
+            echo "✅ Repository structure validation completed successfully"
+          else
+            echo "❌ Repository structure validation failed"
+            exit 1
+          fi
