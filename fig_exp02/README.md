@@ -5,7 +5,7 @@ Phytoplankton dynamics in the ocean
 ![GitHub release](https://img.shields.io/github/v/release/YOUR_ORG/YOUR_REPO?logo=github)
 
 Figure 2.31  From the IPCC Working Group I Contribution to the Sixth Assessment Report: Chapter 2
-![Figure caption](/fig02_31/figure/IPCC_AR6_WGI_Figure_2_31.png?raw=true)
+![Figure caption](/fig_exp02/figure/fig_exp02.png?raw=true)
 
 ## Contents
 
