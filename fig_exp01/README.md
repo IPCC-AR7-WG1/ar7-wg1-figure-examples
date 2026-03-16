@@ -4,8 +4,8 @@ Comparison between simulated annual precipitation changes and pollen-based recon
 ![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
 ![GitHub release](https://img.shields.io/github/v/release/YOUR_ORG/YOUR_REPO?logo=github)
 
-Figure 2.31  From the IPCC Working Group I Contribution to the Sixth Assessment Report: Chapter 3
-![Figure caption](/fig02_31/figure/IPCC_AR6_WGI_Figure_3_11.png?raw=true)
+Figure exp01  From the IPCC Working Group I Contribution to the Sixth Assessment Report
+![Figure caption](/fig_exp01/figure/Figure_exp_01.png?raw=true)
 
 ## Contents
 
@@ -44,7 +44,7 @@ Generate the figures with:
 ## Expected image path
 
 ```bash
-../fig02_31/figure/
+../fig_exp01/figure/
 ```
 
 ## How to cite

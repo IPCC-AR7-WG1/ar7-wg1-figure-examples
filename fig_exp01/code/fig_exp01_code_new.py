@@ -1,13 +1,5 @@
 """
-Figure 3.11 generator (IPCC AR6 WGI Chapter 3)
-
-Generates precipitation change at the Mid-Holocene.
-
-Original creators:
-- Chris Brierley
-- Anni Zhao
-
-Refactored for maintainability and reuse.
+Example code based on AR6
 """
 
 from pathlib import Path

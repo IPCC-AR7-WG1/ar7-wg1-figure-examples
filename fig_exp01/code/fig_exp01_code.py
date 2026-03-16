@@ -1,12 +1,4 @@
-# ch03_fig11.py
-
 # Description
-
-# Generates Figure 3.11 in the IPCC Working Group I Contribution to the Sixth Assessment Report: Chapter 3
-
-# Creator: Chris Brierley (c.brierley@ucl.ac.uk)
-# Creator: Anni Zhao (anni.zhao.16@ucl.ac.uk)
-# Creation Date: 1 Mar 2021
 
 # Note - this script creates a plot with a key that is plastered down the centre of the image. This was corrected manually using Inkscape.  
 
