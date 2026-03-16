@@ -7,13 +7,13 @@
 # ./data is intended to manage dataset metadata and access information, not to store large raw data files.
 
 dataset:
-  name: "CMIP5"                     # Short, descriptive dataset name
-  license: ""                  # e.g. CC-BY-4.0, MIT, proprietary
+  name: "ATLAS"                     # Short, descriptive dataset name
+  license: "CC BY-4.0"                  # e.g. CC-BY-4.0, MIT, proprietary
 
 access:
   access_links:
-    download_url: "https://github.com/IPCC-WG1/Atlas/tree/main/datasets-aggregated-regionally/data/CMIP5"           # Link to long-term storage place
-    documentation: ""          # Link to docs or README
+    download_url: "https://github.com/IPCC-WG1/Atlas/tree/main/datasets-aggregated-regionally/data"           # Link to long-term storage place
+    documentation: "https://github.com/IPCC-WG1/Atlas/blob/main/datasets-aggregated-regionally/README.md"          # Link to docs or README
   
   other:
     organization: ""           # Organization or individual providing data
@@ -22,6 +22,3 @@ access:
 
 notes:
   additional_comments: ""
-
-
-# https://github.com/IPCC-WG1/Atlas/tree/main/datasets-aggregated-regionally/data

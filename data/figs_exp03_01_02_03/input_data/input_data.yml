@@ -1,0 +1,56 @@
+# Example of metadata for input data
+
+# Content:
+# - dataset name
+# - persistent identifier (e.g. handle/hdl, DOI ...)
+# - variables used in the figure, with version number (e.g. v1, v2, etc.)
+
+
+datasets:
+  CMIP5_ACCESS1-0_r1i1p1_historical:
+    persistent_identifier: null
+    variables:
+      pr:
+        version: v2
+      tas:
+        version: v2
+      tasmax:
+        version: v2
+      tasmin:
+        version: v2
+      orog:
+        version: v1
+      sftlf:
+        version: v1
+
+  CMIP5_ACCESS1-0_r1i1p1_rcp45:
+    persistent_identifier: null
+    variables:
+      pr:
+        version: v2
+      tas:
+        version: v2
+      tasmax:
+        version: v2
+      tasmin:
+        version: v2
+      orog:
+        version: v1
+      sftlf:
+        version: v1
+
+  CMIP5_ACCESS1-0_r1i1p1_rcp85:
+    persistent_identifier: null
+    variables:
+      pr:
+        version: v2
+      tas:
+        version: v2
+      tasmax:
+        version: v2
+      tasmin:
+        version: v2
+      orog:
+        version: v1
+      sftlf:
+        version: v1
