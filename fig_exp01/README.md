@@ -5,7 +5,7 @@ Comparison between simulated annual precipitation changes and pollen-based recon
 ![GitHub release](https://img.shields.io/github/v/release/YOUR_ORG/YOUR_REPO?logo=github)
 
 Figure exp01  From the IPCC Working Group I Contribution to the Sixth Assessment Report
-![Figure caption](/fig_exp01/figure/Figure_exp_01.png?raw=true)
+![Figure caption](./fig_exp01/figure/fig_exp01.png?raw=true)
 
 ## Contents
 
