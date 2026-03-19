@@ -7,16 +7,16 @@
 description: "Contains scripts and tools used for data processing, modeling, and analysis."
 
 scripts:
-  - name: "fig_exp01_visualisation.ipynb"
-    path: "../fig_exp01/code/fig_exp01_visualisation.ipynb"
+  - name: "fig99_exp01_visualisation.ipynb"
+    path: "../fig99_exp01/code/fig99_exp01_visualisation.ipynb"
     description: "Visualisation of the results"
 
-  - name: "fig_exp01_code.py"
-    path: "../fig_exp01/code/fig_exp01_code.py"
+  - name: "fig99_exp01_code.py"
+    path: "../fig99_exp01/code/fig99_exp01_code.py"
     description: "Code for generating example figure 01"
 
-  - name: "fig_exp01_code_new.py"
-    path: "../fig_exp01/code/fig_exp01_code_new.py"
+  - name: "fig99_exp01_code_new.py"
+    path: "../fig99_exp01/code/fig99_exp01_code_new.py"
     description: "Refactored code for generating example figure 01"
 
 language: "Python"

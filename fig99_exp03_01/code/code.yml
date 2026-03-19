@@ -7,8 +7,8 @@
 description: "Contains scripts and tools used for data processing, modeling, and analysis."
 
 scripts:
-  - name: "regional-scatter-plots_Figure-Atlas-13_R.ipynb"
-    path: "../fig99_13/code/regional-scatter-plots_Figure-Atlas-13_R.ipynb"
+  - name: "regional-scatter-plots_Figure-Atlas-16_R.ipynb"
+    path: "../fig99_exp03_01/code/regional-scatter-plots_Figure-Atlas-16_R.ipynb"
     description: "Plot the figure"
 
 language: "R"

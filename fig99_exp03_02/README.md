@@ -8,9 +8,9 @@ Figure X.X  From the IPCC Working Group I Contribution to the Seventh Assessment
 
 ![Figure caption](<REPLACE_WITH_YOUR_IMAGE_PATH>)
 
-![Figure caption](/fig_exp03_02/figure/fig_exp03_02_1.png?raw=true)
-![Figure caption](/fig_exp03_02/figure/fig_exp03_02_2.png?raw=true)
-![Figure caption](/fig_exp03_02/figure/fig_exp03_02_3.png?raw=true)
+![Figure caption](/fig99_exp03_02/figure/fig_exp03_02_1.png?raw=true)
+![Figure caption](/fig99_exp03_02/figure/fig_exp03_02_2.png?raw=true)
+![Figure caption](/fig99_exp03_02/figure/fig_exp03_02_3.png?raw=true)
 
 ## Contents
 

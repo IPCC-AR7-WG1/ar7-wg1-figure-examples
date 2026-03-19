@@ -8,31 +8,31 @@ description: "Contains scripts and tools used for data processing, modeling, and
 
 scripts:
   - name: "fig02_31_visualisation.ipynb"
-    path: "../fig03_31/code/fig02_31_visualisation.ipynb"
+    path: "../fig99_exp02/code/fig02_31_visualisation.ipynb"
     description: "Visualisation of the results"
 
   - name: "chl_analysis.py"
-    path: "../fig03_31/code/chl_analysis.py"
+    path: "../fig99_exp02/code/chl_analysis.py"
     description: "Plot the figure"
 
   - name: "trend_analysis.py"
-    path: "../fig03_31/code/trend_analysis.py"
+    path: "../fig99_exp02/code/trend_analysis.py"
     description: "Analyze trends in the data"
 
   - name: "__init__.py"
-    path: "../fig03_31/code/multiprocess/__init__.py"
+    path: "../fig99_exp02/code/multiprocess/__init__.py"
     description: "Initialization script for the code package"
   
   - name: "parallell_linregress.py"
-    path: "../fig03_31/code/multiprocess/parallell_linregress.py"
+    path: "../fig99_exp02/code/multiprocess/parallell_linregress.py"
     description: "Parallel implementation of linear regression"
 
   - name: "processify.py"
-    path: "../fig03_31/code/multiprocess/processify.py"
+    path: "../fig99_exp02/code/multiprocess/processify.py"
     description: "Processify function for parallel processing"
 
   - name: "santer.py"
-    path: "../fig03_31/code/multiprocess/santer.py"
+    path: "../fig99_exp02/code/multiprocess/santer.py"
     description: "Santer function for parallel processing"
 
 language: "Python"

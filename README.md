@@ -23,11 +23,11 @@ Example:
 
 | Figure Folder | Preview | Figure Title |
 |---------------|---------|-------------|
-| [fig_exp01](./fig_exp01/) | ![fig_exp01](./fig_exp01/figure/fig_exp01.png) | Comparison between simulated annual precipitation changes and pollen-based reconstructions in the mid-Holocene (6000 years ago) |
-| [fig_exp02](./fig_exp02/) | ![fig_exp02](./fig_exp02/figure/fig_exp02.png)| Phytoplankton dynamics in the ocean |
-| [fig_exp03_01](./fig_exp03_01/) | ![fig_exp03_01](./fig_exp03_01/figure/fig_exp03_01.png)| Regional changes over land in annual mean surface air temperature and precipitation relative to the 1995–2014 baseline for the reference regions in Africa (warming since the 1850–1900 pre-industrial baseline is also provided as an offset)|
-| [fig_exp03_02](./fig_exp03_02/) | ![fig_exp03_02](./fig_exp03_02/figure/fig_exp03_02_1.png)| Regional changes over land in annual mean surface air temperature and precipitation relative to the 1995–2014 baseline for the reference regions in Asia (warming since the 1850–1900 pre-industrial baseline is also provided as an offset) |
-| [fig_exp03_03](./fig_exp03_03/) | ![fig_exp03_03](./fig_exp03_03/figure/fig_exp03_03.png)| Regional changes over land in annual mean surface air temperature and precipitation relative to the 1995–2014 baseline for the reference regions in Australasia (warming since the 1850–1900 pre-industrial baseline is also provided as an offset) |
+| [fig99_exp01](./fig99_exp01/) | ![fig_exp01](./fig99_exp01/figure/fig_exp01.png) | Comparison between simulated annual precipitation changes and pollen-based reconstructions in the mid-Holocene (6000 years ago) |
+| [fig99_exp02](./fig99_exp02/) | ![fig_exp02](./fig99_exp02/figure/fig_exp02.png)| Phytoplankton dynamics in the ocean |
+| [fig99_exp03_01](./fig99_exp03_01/) | ![fig_exp03_01](./fig99_exp03_01/figure/fig_exp03_01.png)| Regional changes over land in annual mean surface air temperature and precipitation relative to the 1995–2014 baseline for the reference regions in Africa (warming since the 1850–1900 pre-industrial baseline is also provided as an offset)|
+| [fig99_exp03_02](./fig99_exp03_02/) | ![fig_exp03_02](./fig99_exp03_02/figure/fig_exp03_02_1.png)| Regional changes over land in annual mean surface air temperature and precipitation relative to the 1995–2014 baseline for the reference regions in Asia (warming since the 1850–1900 pre-industrial baseline is also provided as an offset) |
+| [fig99_exp03_03](./fig99_exp03_03/) | ![fig_exp03_03](./fig99_exp03_03/figure/fig_exp03_03.png)| Regional changes over land in annual mean surface air temperature and precipitation relative to the 1995–2014 baseline for the reference regions in Australasia (warming since the 1850–1900 pre-industrial baseline is also provided as an offset) |
 
 ## Disclaimer
 Please note that figures in this repository may differ from those in the published version due to the editorial process. The repository contains the latest available versions prior to publication.

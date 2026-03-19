@@ -1,12 +1,11 @@
-Regional changes over land in annual mean surface air temperature and precipitation relative to the 1995–2014 baseline for the reference regions in Africa (warming since the 1850–1900 pre-industrial baseline is also provided as an offset). 
+Phytoplankton dynamics in the ocean
 ====================================
 [![DOI](https://zenodo.org/badge/DOI/YOUR_ZENODO_DOI.svg)](https://doi.org/YOUR_ZENODO_DOI)
 ![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
 ![GitHub release](https://img.shields.io/github/v/release/YOUR_ORG/YOUR_REPO?logo=github)
 
-Figure X.X  From the IPCC Working Group I Contribution to the Seventh Assessment Report: Chapter X
-
-![Figure_example03_01](/fig_exp03_01/figure/fig_exp03_01.png)
+Figure 2.31  From the IPCC Working Group I Contribution to the Sixth Assessment Report: Chapter 2
+![Figure caption](/fig99_exp02/figure/fig_exp02.png?raw=true)
 
 ## Contents
 
@@ -22,20 +21,9 @@ Figure X.X  From the IPCC Working Group I Contribution to the Seventh Assessment
 
 ## Description
 
-Write a clear, concise, and self-contained description of the figure:
-
-- What does the figure show?
-
-- What datasets/models are used?
-
-- What time period does it cover?
-
-- Any important features or highlights?
-
+(a) Climatology of chlorophyll-a concentration derived from ocean-colour data (1998–2018); (b) Linear trends in chlorophyll concentration. Trends are calculated using OLS regression with significance assessed following AR(1) adjustment after Santer et al. (2008) (‘×’ marks denote non-significant changes). (c) Histogram of linear trends in chlorophyll concentration, after area weighting and with per-pixel uncertainty estimates based on comparison with in situ data. Further details on data sources and processing are available in the chapter data table (Table 2.SM.1).
 
 ## Installation
-
-example:
 
 1. Clone the repository
 
@@ -46,33 +34,38 @@ cd YOUR_REPO
 
 2. Create the environment
 
-```bash
+All code is written in python 3.7+ and mainly uses commonly available packages. The plotting functions are based on cartopy which can be a bit difficult to install, it therefore advisable to use the [conda](https://docs.conda.io/en/latest/miniconda.html) package manager:
+
+```
 conda env create -f environment.yml
-```
-This will create a new conda environment with the name defined in the environment.yml file (e.g., ipcc-fig-env).
-
-3. Activate the environment
-
-```bash
-conda activate ipcc-fig-env
+conda activate ipcc
 ```
 
-4. Run the figure generation pipeline
+Download, load, and process the OC-CCI files as follows:
 
-......
+```
+>>> import chl_analysis
+>>> chl_analysis.process()
+```
+The parallelized setup is based on a machine with at least 32GB RAM. Change the *islice* attribute in the *process* function to a lower value if memory is an issue. For example:
+
+```
+>>> chl_analysis.process(islice=270)
+```
+
+Generate the figures with:
+
+```
+>>> chl_analysis.plot_chl_clim()
+>>> chl_analysis.plot_hatched_chl_trend()
+```
 
 
 ## Expected image path
 
-Provide the expected output file paths from the tool's run:
-
-- Include multiple paths if the figure has multiple sub-panels.
-
-example:
-- recipe_ipccwg1ar6ch3_atmosphere_YYYYMMDD_HHMMSS/plots/fig_3_4_cmip5/fig-3-4/gsat_Global_CMIP5_historical-rcp45_anom_1850-2020.eps
-- recipe_ipccwg1ar6ch3_atmosphere_YYYYMMDD_HHMMSS/plots/fig_3_4_cmip6/fig-3-4/gsat_Global_CMIP6_historical-ssp245_anom_1850-2020.eps
-- recipe_ipccwg1ar6ch3_atmosphere_YYYYMMDD_HHMMSS/plots/fig_3_4_collect/collect/gsat_Global_multimodel_anom_1850-2020.eps
-
+```bash
+../fig02_31/figure/
+```
 
 ## How to cite
 

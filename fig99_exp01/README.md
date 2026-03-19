@@ -1,13 +1,11 @@
-Regional changes over land in annual mean surface air temperature and precipitation relative to the 1995–2014 baseline for the reference regions in Australasia (warming since the 1850–1900 pre-industrial baseline is also provided as an offset)
+Comparison between simulated annual precipitation changes and pollen-based reconstructions in the mid-Holocene (6000 years ago)
 ====================================
 [![DOI](https://zenodo.org/badge/DOI/YOUR_ZENODO_DOI.svg)](https://doi.org/YOUR_ZENODO_DOI)
 ![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
 ![GitHub release](https://img.shields.io/github/v/release/YOUR_ORG/YOUR_REPO?logo=github)
 
-Figure X.X  From the IPCC Working Group I Contribution to the Seventh Assessment Report: Chapter X
-
-![Figure_example03_03](./fig_exp03_03/figure/fig_exp03_03.png)
-
+Figure exp01  From the IPCC Working Group I Contribution to the Sixth Assessment Report
+![Figure caption](./fig99_exp01/figure/fig_exp01.png?raw=true)
 
 ## Contents
 
@@ -23,20 +21,9 @@ Figure X.X  From the IPCC Working Group I Contribution to the Seventh Assessment
 
 ## Description
 
-Write a clear, concise, and self-contained description of the figure:
-
-- What does the figure show?
-
-- What datasets/models are used?
-
-- What time period does it cover?
-
-- Any important features or highlights?
-
+The area-averaged changes relative to the pre-industrial control simulations over five regions (Iturbide et al., 2020) as simulated by CMIP6 models (individually identifiable, one ensemble member per model) and CMIP5 models (blue) are shown, stretching from the tropics to high-latitudes. All regions contain multiple quantitative reconstructions of changes relative to present day; their interquartile range are shown by boxes and with whiskers for their full range excluding outliers. Figure is adapted from Brierley et al. (2020). Further details on data sources and processing are available in the chapter data table (Table 3.SM.1).
 
 ## Installation
-
-example:
 
 1. Clone the repository
 
@@ -47,33 +34,18 @@ cd YOUR_REPO
 
 2. Create the environment
 
-```bash
-conda env create -f environment.yml
-```
-This will create a new conda environment with the name defined in the environment.yml file (e.g., ipcc-fig-env).
+......
 
-3. Activate the environment
-
-```bash
-conda activate ipcc-fig-env
-```
-
-4. Run the figure generation pipeline
+Generate the figures with:
 
 ......
 
 
 ## Expected image path
 
-Provide the expected output file paths from the tool's run:
-
-- Include multiple paths if the figure has multiple sub-panels.
-
-example:
-- recipe_ipccwg1ar6ch3_atmosphere_YYYYMMDD_HHMMSS/plots/fig_3_4_cmip5/fig-3-4/gsat_Global_CMIP5_historical-rcp45_anom_1850-2020.eps
-- recipe_ipccwg1ar6ch3_atmosphere_YYYYMMDD_HHMMSS/plots/fig_3_4_cmip6/fig-3-4/gsat_Global_CMIP6_historical-ssp245_anom_1850-2020.eps
-- recipe_ipccwg1ar6ch3_atmosphere_YYYYMMDD_HHMMSS/plots/fig_3_4_collect/collect/gsat_Global_multimodel_anom_1850-2020.eps
-
+```bash
+../fig_exp01/figure/
+```
 
 ## How to cite
 
