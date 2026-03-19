@@ -1,4 +1,4 @@
-FIGURE TITLE
+Regional changes over land in annual mean surface air temperature and precipitation relative to the 1995–2014 baseline for the reference regions in Africa (warming since the 1850–1900 pre-industrial baseline is also provided as an offset). 
 ====================================
 [![DOI](https://zenodo.org/badge/DOI/YOUR_ZENODO_DOI.svg)](https://doi.org/YOUR_ZENODO_DOI)
 ![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
@@ -6,12 +6,7 @@ FIGURE TITLE
 
 Figure X.X  From the IPCC Working Group I Contribution to the Seventh Assessment Report: Chapter X
 
-![Figure caption](<REPLACE_WITH_YOUR_IMAGE_PATH>)
-
-Example: 
-
-Figure 3.4  From the IPCC Working Group I Contribution to the Sixth Assessment Report: Chapter 3
-![Figure caption](/fig_exp03_01/figure/fig_exp03_01.png?raw=true)
+![Figure_example03_01](/fig_exp03_01/figure/fig_exp03_01.png)
 
 ## Contents
 

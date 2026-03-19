@@ -1,4 +1,4 @@
-FIGURE TITLE
+Regional changes over land in annual mean surface air temperature and precipitation relative to the 1995–2014 baseline for the reference regions in Asia (warming since the 1850–1900 pre-industrial baseline is also provided as an offset).
 ====================================
 [![DOI](https://zenodo.org/badge/DOI/YOUR_ZENODO_DOI.svg)](https://doi.org/YOUR_ZENODO_DOI)
 ![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
