@@ -1,0 +1,17 @@
+name: env_exp02
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  - xarray
+  - matplotlib
+  - requests
+  - multiprocess
+  - pip
+  - pip:
+      - projmap
+      - trend_analysis
