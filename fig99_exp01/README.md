@@ -28,18 +28,15 @@ The area-averaged changes relative to the pre-industrial control simulations ove
 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_ORG/YOUR_REPO.git
-cd YOUR_REPO
+git clone https://github.com/IPCC-AR7-WG1/ar7-wg1-figure-examples.git
+cd ar7-wg1-figure-examples
 ```
 
 2. Create the environment
 
-......
-
-Generate the figures with:
-
-......
-
+```bash
+conda env create -f env/env_exp01.yml
+```
 
 ## Expected image path
 
@@ -66,20 +63,3 @@ Provide a full citation of the IPCC report chapter containing the figure, accord
 
 ## Disclaimer
 Please note that figures in this repository may differ from those in the published version due to the editorial process. The repository contains the latest available versions prior to publication.
-
-
-# 🟡Checklist Before Finalizing (delete when you complete the README.md)
-
-- Updated title and badges
-
-- Correct figure number and chapter
-
-- Real image path and preview
-
-- Descriptive summary in the Description section
-
-- Image output paths match the real output
-
-- At least one scientific source listed
-
-- Figure and repository citation are accurate
