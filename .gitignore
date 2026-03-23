@@ -42,7 +42,6 @@ venv/
 ENV/
 env.bak/
 !env/
-!env/*.yml
 
 # ------------------------------------
 # R artifacts
