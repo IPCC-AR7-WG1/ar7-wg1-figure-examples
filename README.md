@@ -1,4 +1,4 @@
-Chapter 99: chapter title
+Chapter 99: AR7 WGI Figure Examples
 ====================================
 [![DOI](https://zenodo.org/badge/DOI/YOUR_ZENODO_DOI.svg)](https://doi.org/YOUR_ZENODO_DOI)
 ![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
@@ -13,13 +13,9 @@ Chapter 99: chapter title
 
 ## Getting started
 
-Describe the scope of the repository, how figures are organised, how to set up the environment, and how to reproduce outputs. It should also link to the figure folders (figXX_YY/) and any shared resources (e.g., src/, data/, env/).
+This repository presents three examples based on figures from the AR6 report. Each example demonstrates a different approach to generating scientific figures, highlighting varying levels of complexity, reproducibility, and code organization.
 
 ## Figures
-
-Describe the figures in this chapter. Mention what each figure represents.
-
-Example:
 
 | Figure Folder | Preview | Figure Title |
 |---------------|---------|--------------|
